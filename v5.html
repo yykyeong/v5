@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="v5.css">
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="v5.js"></script>
+</head>
+<body>
+<nav id="nav">
+    <ul>
+        <li class="active"><a href="#sec01">catch</a></li>
+        <li><a href="#sec02">schd</a></li>
+        <li><a href="#sec03">lineup</a></li>
+        <li><a href="#sec04">shop</a></li>
+    </ul>
+</nav>
+<div id="contents">
+    <!-- 01_catch -->
+    <div id="sec01" class="catchPhrase">
+        <div class="catch"><img src="img/catch_pc.png"></div>
+    </div>
+
+    <!-- 02_schedule -->
+    <div id="sec02" class="schedule">
+            <img src="img/title.png" alt="tit" class="tit">
+            <div class="vs">
+                <figure><img src="img/em_lan.png" alt="lan" class="lan"><figcaption>SSG 랜더스</figcaption></figure>
+                <p>vs</p>
+                <figure><img src="img/em_wy.png" alt="wy"><figcaption>SK 와이번스</figcaption></figure>
+            </div>
+            <div class="swiper schdSwiper">
+                <div class="swiper-wrapper schdWrapper">
+                    <div class="swiper-slide schdSlide active">
+                        <p class="upcoming">upcoming!</p>
+                        <div class="schd">
+                            <p class="leg">1차전</p>
+                            <div class="plan">
+                                <p>문학</p>
+                                <p class="date">2022.11.14 (일) 14:00</p>
+                            </div>
+                            <div class="match">
+                                <img src="img/sym_wy.png" alt="symbol">
+                                <p>vs</p>
+                                <img src="img/sym_lan.png" alt="sybol">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide schdSlide">
+                        <div class="schd">
+                            <p class="leg">2차전</p>
+                            <div class="plan">
+                                <p>문학</p>
+                                <p class="date">2022.11.15 (월) 18:30</p>
+                            </div>
+                            <div class="match">
+                                <img src="img/sym_wy.png" alt="symbol">
+                                <p>vs</p>
+                                <img src="img/sym_lan.png" alt="sybol">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide schdSlide">
+                        <div class="schd">
+                            <p class="leg">3차전</p>
+                            <div class="plan">
+                                <p>청라</p>
+                                <p class="date">2022.11.16 (수) 18:30</p>
+                            </div>
+                            <div class="match">
+                                <img src="img/sym_lan.png" alt="symbol">
+                                <p>vs</p>
+                                <img src="img/sym_wy.png" alt="symbol">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide schdSlide">
+                        <div class="schd">
+                            <p class="leg">4차전</p>
+                            <div class="plan">
+                                <p>청라</p>
+                                <p class="date">2022.11.17 (목) 18:30</p>
+                            </div>
+                            <div class="match">
+                                <img src="img/sym_lan.png" alt="symbol">
+                                <p>vs</p>
+                                <img src="img/sym_wy.png" alt="symbol">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide schdSlide">
+                        <div class="schd">
+                            <p class="leg">5차전</p>
+                            <div class="plan">
+                                <p>문학</p>
+                                <p class="date">2022.11.19 (토) 14:00</p>
+                            </div>
+                            <div class="match">
+                                <img src="img/sym_wy.png" alt="symbol">
+                                <p>vs</p>
+                                <img src="img/sym_lan.png" alt="symbol">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide schdSlide">
+                        <div class="schd">
+                            <p class="leg">6차전</p>
+                            <div class="plan">
+                                <p>문학</p>
+                                <p class="date">2022.11.20 (일) 14:00</p>
+                            </div>
+                            <div class="match">
+                                <img src="img/sym_wy.png" alt="symbol">
+                                <p>vs</p>
+                                <img src="img/sym_lan.png" alt="symbol">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide schdSlide">
+                        <div class="schd">
+                            <p class="leg">7차전</p>
+                            <div class="plan">
+                                <p>문학</p>
+                                <p class="date">2022.11.21 (월) 18:30</p>
+                            </div>
+                            <div class="match">
+                                <img src="img/sym_wy.png" alt="symbol">
+                                <p>vs</p>
+                                <img src="img/sym_lan.png" alt="symbol">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+            <div class="swiper-scrollbar">
+                <a href="#" class="showLineUp">
+                    <img src="img/arrow_b.png" alt="arrow">
+                    <span><span class="changeLeg"></span> 라인업 바로가기</span>
+                </a>
+            </div>
+    </div>
+    
+    <!-- 03_lineUp -->
+    <div id="sec03" class="lineUp">
+
+        
+        <div class="lineLeft">
+            <p class="linetit">starting lineup</p>
+            <ul class="player">
+            <li>
+                <div class="b_order">1</div>
+                <div class="name">추신수</div>
+                <div class="position">DH</div>
+            </li>
+            <li>
+                <div class="b_order">2</div>
+                <div class="name">최지훈</div>
+                <div class="position">CF</div>
+            </li>
+            <li>
+                <div class="b_order">3</div>
+                <div class="name">최주환</div>
+                <div class="position">1B</div>
+            </li>
+            <li>
+                <div class="b_order">4</div>
+                <div class="name">최정</div>
+                <div class="position">3B</div>
+            </li>
+            <li>
+                <div class="b_order">5</div>
+                <div class="name">한유섬</div>
+                <div class="position">RF</div>
+            </li>
+            <li>
+                <div class="b_order">6</div>
+                <div class="name">라가레스</div>
+                <div class="position">LF</div>
+            </li>
+            <li>
+                <div class="b_order">7</div>
+                <div class="name">박성한</div>
+                <div class="position">SS</div>
+            </li>
+            <li>
+                <div class="b_order">8</div>
+                <div class="name">김민식</div>
+                <div class="position">C</div>
+            </li>
+            <li>
+                <div class="b_order">9</div>
+                <div class="name">김성현</div>
+                <div class="position">2B</div>
+            </li>
+            <li>
+                <div class="b_order">P</div>
+                <div class="name">김광현</div>
+                <div class="position">P</div>
+            </li>
+            </ul>
+        </div>
+        <img src="img/kkbg.png" class="kkbg">
+    </div>
+    
+    <!-- 04_shop -->
+    <div id="sec04" class="shop">
+        <div class="shopBox">
+            <ul>
+                <li><a href="#"><img src="img/shop_away.png" alt="away"><p>22시즌 어웨이 어센틱 유니폼</p></a></li>
+                <li><a href="#"><img src="img/shop_glove.png" alt="glove"><p>랜더스 엘 글러브</p></a></li>
+                <li  class="active"><a href="#"><span>hot</span><img src="img/shop_home.png" alt="home"><p>22시즌 홈 어센틱 유니폼</p></a></li>
+                <li><a href="#"><span>new</span><img src="img/shop_kk.png" alt="kk"><p>김광현 KK 유니폼</p></a></li>
+                <li><a href="#"><img src="img/shop_cap.png" alt="cap"><p>22시즌 어센틱 모자(레드)</p></a></li>
+            </ul>
+        </div>
+        <div class="store"><a href="#">SSG랜더스 스토어</a></div>
+    </div>
+
+</div>
+<footer>
+    <div class="home">
+        <div class="homeImg">
+            <div class="front"><img src="img/logo_f.png" alt="f"></div>
+            <div class="back">
+                <img src="img/logo_b.png" alt="b">
+                <p class="bTxt">V5</p>
+                <a href="#">공식 홈페이지</a>
+            </div>
+        </div>
+    </div>
+    <ul class="footer">
+        <li><a href="#"><img src="img/footer_emblem.png" alt="f_emblem"></a></li>
+        <li><a href="#"><img src="img/footer_sns_landers.png" alt="f_app"></a></li>
+        <li><a href="#"><img src="img/footer_sns_facebook.png" alt="f_face"></a></li>
+        <li><a href="#"><img src="img/footer_sns_instagram.png" alt="footer_insta"></a></li>
+        <li><a href="#"><img src="img/footer_sns_youtube.png" alt="f_youtube"></a></li>
+    </ul>
+</footer>
+</body>
+</html>
